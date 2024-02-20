@@ -9,6 +9,9 @@ namespace UserManagementSystem
 {
     public partial class SiteMaster : MasterPage
     {
+
+        protected const string ApplicationName = "User Management Application";
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
